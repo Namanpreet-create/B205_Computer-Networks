@@ -1,0 +1,97 @@
+2026-09-14 18:39:58,609  INFO      fileshare.db — Database ready at C:\Users\admin\Downloads\fileshare\fileshare\fileshare.db
+2026-09-14 18:39:58,611  INFO      fileshare.server — FileShare server listening on 127.0.0.1:9000
+2026-09-14 18:40:53,003  INFO      fileshare.server — Connection from ('127.0.0.1', 57711)
+2026-09-14 18:40:53,006  INFO      fileshare.server — Registered new user: alex
+2026-09-14 18:40:53,007  INFO      fileshare.server — Login: alex from ('127.0.0.1', 57711)
+2026-09-14 18:44:13,003  INFO      fileshare.server — Disconnected: ('127.0.0.1', 57711) (alex)
+2026-09-14 18:44:32,480  INFO      fileshare.server — Connection from ('127.0.0.1', 57718)
+2026-09-14 18:44:32,481  INFO      fileshare.server — Login: alex from ('127.0.0.1', 57718)
+2026-09-14 18:46:05,569  INFO      fileshare.server — Disconnected: ('127.0.0.1', 57718) (alex)
+2026-09-14 18:46:21,985  INFO      fileshare.server — Connection from ('127.0.0.1', 57724)
+2026-09-14 18:46:21,985  INFO      fileshare.server — Login: alex from ('127.0.0.1', 57724)
+2026-09-14 18:46:22,486  INFO      fileshare.server — Subscribed: alex
+2026-09-14 18:47:44,097  ERROR     fileshare.server — Client ('127.0.0.1', 57724) error: [WinError 10054] An existing connection was forcibly closed by the remote host
+Traceback (most recent call last):
+  File "C:\Users\admin\Downloads\fileshare\fileshare\server\server.py", line 115, in run
+    msg = recv_message(self.sock)
+  File "C:\Users\admin\Downloads\fileshare\fileshare\shared\protocol.py", line 72, in recv_message
+    raw = _recv_exactly(sock, HEADER_SIZE)
+  File "C:\Users\admin\Downloads\fileshare\fileshare\shared\protocol.py", line 86, in _recv_exactly
+    chunk = sock.recv(n - len(buf))
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-09-14 18:47:44,126  INFO      fileshare.server — Disconnected: ('127.0.0.1', 57724) (alex)
+2026-09-14 18:50:33,134  INFO      fileshare.db — Database ready at C:\Users\admin\Downloads\fileshare\fileshare\fileshare.db
+2026-09-14 18:50:33,138  INFO      fileshare.server — FileShare server listening on 127.0.0.1:9000
+2026-09-14 18:50:53,144  INFO      fileshare.server — Connection from ('127.0.0.1', 57741)
+2026-09-14 18:50:53,146  INFO      fileshare.server — Login: alex from ('127.0.0.1', 57741)
+2026-09-14 18:50:53,793  INFO      fileshare.server — Subscribed: alex
+2026-09-14 18:58:17,577  ERROR     fileshare.server — Client ('127.0.0.1', 57741) error: [WinError 10054] An existing connection was forcibly closed by the remote host
+Traceback (most recent call last):
+  File "C:\Users\admin\Downloads\fileshare\fileshare\server\server.py", line 115, in run
+    msg = recv_message(self.sock)
+  File "C:\Users\admin\Downloads\fileshare\fileshare\shared\protocol.py", line 72, in recv_message
+    raw = _recv_exactly(sock, HEADER_SIZE)
+  File "C:\Users\admin\Downloads\fileshare\fileshare\shared\protocol.py", line 86, in _recv_exactly
+    chunk = sock.recv(n - len(buf))
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-09-14 18:58:17,580  INFO      fileshare.server — Disconnected: ('127.0.0.1', 57741) (alex)
+2026-09-14 18:58:33,425  INFO      fileshare.server — Connection from ('127.0.0.1', 57785)
+2026-09-14 18:58:33,426  INFO      fileshare.server — Login: alex from ('127.0.0.1', 57785)
+2026-09-14 18:58:33,845  INFO      fileshare.server — Subscribed: alex
+2026-09-14 19:06:17,850  ERROR     fileshare.server — Client ('127.0.0.1', 57785) error: [WinError 10054] An existing connection was forcibly closed by the remote host
+Traceback (most recent call last):
+  File "C:\Users\admin\Downloads\fileshare\fileshare\server\server.py", line 115, in run
+    msg = recv_message(self.sock)
+  File "C:\Users\admin\Downloads\fileshare\fileshare\shared\protocol.py", line 72, in recv_message
+    raw = _recv_exactly(sock, HEADER_SIZE)
+  File "C:\Users\admin\Downloads\fileshare\fileshare\shared\protocol.py", line 86, in _recv_exactly
+    chunk = sock.recv(n - len(buf))
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-09-14 19:06:17,854  INFO      fileshare.server — Disconnected: ('127.0.0.1', 57785) (alex)
+2026-09-14 19:06:28,880  INFO      fileshare.db — Database ready at C:\Users\admin\Downloads\fileshare\fileshare\fileshare.db
+2026-09-14 19:06:28,881  INFO      fileshare.server — FileShare server listening on 127.0.0.1:9000
+2026-09-14 19:09:40,769  INFO      fileshare.server — Connection from ('127.0.0.1', 57820)
+2026-09-14 19:09:40,770  INFO      fileshare.server — Registered new user: jack
+2026-09-14 19:09:40,772  INFO      fileshare.server — Login: jack from ('127.0.0.1', 57820)
+2026-09-14 19:09:41,166  INFO      fileshare.server — Subscribed: jack
+2026-09-14 19:09:49,615  INFO      fileshare.server — jack upload-init 'data.csv' (870 bytes)
+2026-09-14 19:09:49,623  INFO      fileshare.server — jack upload-done 'data.csv' node_id=2
+2026-09-14 19:11:06,856  INFO      fileshare.server — Logout: jack
+2026-09-14 19:11:06,856  INFO      fileshare.server — Disconnected: ('127.0.0.1', 57820) (None)
+2026-09-14 19:11:25,729  INFO      fileshare.server — Connection from ('127.0.0.1', 57829)
+2026-09-14 19:11:25,730  INFO      fileshare.server — Login: alex from ('127.0.0.1', 57829)
+2026-09-14 19:11:26,122  INFO      fileshare.server — Subscribed: alex
+2026-09-14 19:11:42,920  INFO      fileshare.server — alex created folder 'data' (id=3)
+2026-09-14 19:12:05,407  INFO      fileshare.server — Logout: alex
+2026-09-14 19:12:05,408  INFO      fileshare.server — Disconnected: ('127.0.0.1', 57829) (None)
+2026-09-14 19:22:40,457  INFO      fileshare.server — Connection from ('127.0.0.1', 57909)
+2026-09-14 19:22:40,458  INFO      fileshare.server — Login: jack from ('127.0.0.1', 57909)
+2026-09-14 19:22:40,853  INFO      fileshare.server — Subscribed: jack
+2026-09-14 19:24:25,626  INFO      fileshare.server — jack created folder 'my data' (id=4)
+2026-09-14 19:29:37,895  INFO      fileshare.server — Logout: jack
+2026-09-14 19:29:37,896  INFO      fileshare.server — Disconnected: ('127.0.0.1', 57909) (None)
+2026-09-14 19:29:57,673  INFO      fileshare.server — Connection from ('127.0.0.1', 57960)
+2026-09-14 19:29:57,674  INFO      fileshare.server — Login: jack from ('127.0.0.1', 57960)
+2026-09-14 19:29:58,138  INFO      fileshare.server — Subscribed: jack
+2026-09-14 19:30:12,962  INFO      fileshare.server — jack upload-init 'Nike Dataset.csv' (821590 bytes)
+2026-09-14 19:30:13,203  INFO      fileshare.server — jack upload-done 'Nike Dataset.csv' node_id=5
+2026-09-14 19:31:44,727  INFO      fileshare.server — Logout: jack
+2026-09-14 19:31:44,729  INFO      fileshare.server — Disconnected: ('127.0.0.1', 57960) (None)
+2026-09-14 19:31:58,769  INFO      fileshare.server — Connection from ('127.0.0.1', 57984)
+2026-09-14 19:31:58,770  INFO      fileshare.server — Login: alex from ('127.0.0.1', 57984)
+2026-09-14 19:31:59,217  INFO      fileshare.server — Subscribed: alex
+2026-09-14 19:32:50,571  INFO      fileshare.server — alex upload-init 'meeting data.csv' (265 bytes)
+2026-09-14 19:32:50,580  INFO      fileshare.server — alex upload-done 'meeting data.csv' node_id=6
+2026-09-14 19:33:28,712  INFO      fileshare.server — Logout: alex
+2026-09-14 19:33:28,714  INFO      fileshare.server — Disconnected: ('127.0.0.1', 57984) (None)
+2026-09-15 11:38:43,688  INFO      fileshare.db — Database ready at C:\Users\admin\Downloads\fileshare\fileshare\fileshare.db
+2026-09-15 11:38:43,689  INFO      fileshare.server — FileShare server listening on 127.0.0.1:9000
+2026-09-15 11:39:09,372  INFO      fileshare.server — Connection from ('127.0.0.1', 50182)
+2026-09-15 11:39:09,372  INFO      fileshare.server — Login: jack from ('127.0.0.1', 50182)
+2026-09-15 11:39:09,908  INFO      fileshare.server — Subscribed: jack
+2026-09-15 11:48:15,341  INFO      fileshare.server — jack upload-init 'meeting data.csv' (265 bytes)
+2026-09-15 11:48:15,355  INFO      fileshare.server — jack upload-done 'meeting data.csv' node_id=7
+2026-09-15 12:09:02,294  INFO      fileshare.server — jack deleted node 2 (data.csv)
+2026-09-15 12:12:53,665  INFO      fileshare.server — jack created folder 'app' (id=8)
+2026-09-15 12:14:37,468  INFO      fileshare.server — Logout: jack
+2026-09-15 12:14:37,469  INFO      fileshare.server — Disconnected: ('127.0.0.1', 50182) (None)

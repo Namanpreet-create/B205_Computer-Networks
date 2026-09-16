@@ -1,0 +1,518 @@
+2026-09-14 18:40:52,968  INFO      fileshare.client.net — Connected to 127.0.0.1:9000
+2026-09-14 18:44:32,479  INFO      fileshare.client.net — Connected to 127.0.0.1:9000
+2026-09-14 18:46:21,984  INFO      fileshare.client.net — Connected to 127.0.0.1:9000
+2026-09-14 18:46:22,486  INFO      fileshare.client.gui — Loading…
+2026-09-14 18:46:33,866  INFO      fileshare.client.gui — Uploading data.csv…
+2026-09-14 18:46:48,182  INFO      fileshare.client.gui — Loading…
+2026-09-14 18:47:16,190  INFO      fileshare.client.gui — Loading…
+2026-09-14 18:47:16,478  INFO      fileshare.client.gui — Loading…
+2026-09-14 18:47:16,702  INFO      fileshare.client.gui — Loading…
+2026-09-14 18:50:53,143  INFO      fileshare.client.net — Connected to 127.0.0.1:9000
+2026-09-14 18:50:53,794  INFO      fileshare.client.gui — Loading…
+2026-09-14 18:51:27,204  INFO      fileshare.client.gui — Uploading data.csv…
+2026-09-14 18:53:28,654  INFO      fileshare.client.gui — Loading…
+2026-09-14 18:54:12,038  INFO      fileshare.client.gui — Loading…
+2026-09-14 18:58:33,425  INFO      fileshare.client.net — Connected to 127.0.0.1:9000
+2026-09-14 18:58:33,845  INFO      fileshare.client.gui — Loading…
+2026-09-14 18:58:58,221  INFO      fileshare.client.gui — Uploading data.csv…
+2026-09-14 19:02:10,998  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:09:40,768  INFO      fileshare.client.net — Connected to 127.0.0.1:9000
+2026-09-14 19:09:40,768  INFO      fileshare.client.net — REQUEST: REGISTER
+2026-09-14 19:09:40,768  INFO      fileshare.client.net — REQUEST REGISTER: lock acquired
+2026-09-14 19:09:40,769  INFO      fileshare.client.net — REQUEST REGISTER: sent, waiting for response
+2026-09-14 19:09:40,771  INFO      fileshare.client.net — REQUEST REGISTER: response={'type': 'OK', 'message': "User 'jack' registered successfully"}
+2026-09-14 19:09:40,771  INFO      fileshare.client.net — REQUEST: LOGIN
+2026-09-14 19:09:40,772  INFO      fileshare.client.net — REQUEST LOGIN: lock acquired
+2026-09-14 19:09:40,772  INFO      fileshare.client.net — REQUEST LOGIN: sent, waiting for response
+2026-09-14 19:09:40,773  INFO      fileshare.client.net — REQUEST LOGIN: response={'type': 'OK', 'message': 'Welcome, jack!', 'username': 'jack'}
+2026-09-14 19:09:41,165  INFO      fileshare.client.net — REQUEST: SUBSCRIBE
+2026-09-14 19:09:41,165  INFO      fileshare.client.net — REQUEST SUBSCRIBE: lock acquired
+2026-09-14 19:09:41,165  INFO      fileshare.client.net — REQUEST SUBSCRIBE: sent, waiting for response
+2026-09-14 19:09:41,166  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:09:41,166  INFO      fileshare.client.net — REQUEST SUBSCRIBE: response={'type': 'OK', 'message': 'Subscribed to notifications'}
+2026-09-14 19:09:41,166  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:09:41,166  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:09:41,167  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:09:41,167  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 1, 'items': []}
+2026-09-14 19:09:41,172  INFO      fileshare.client.gui — 0 items in this folder
+2026-09-14 19:09:49,548  INFO      fileshare.client.gui — Uploading data.csv…
+2026-09-14 19:09:49,614  INFO      fileshare.client.net — UPLOAD START: data.csv (870 bytes)
+2026-09-14 19:09:49,614  INFO      fileshare.client.net — UPLOAD INIT: waiting for socket lock
+2026-09-14 19:09:49,614  INFO      fileshare.client.net — UPLOAD INIT: lock acquired
+2026-09-14 19:09:49,614  INFO      fileshare.client.net — UPLOAD INIT: sending request
+2026-09-14 19:09:49,615  INFO      fileshare.client.net — UPLOAD INIT: request sent, waiting for response
+2026-09-14 19:09:49,615  INFO      fileshare.client.net — UPLOAD INIT: response received: {'type': 'UPLOAD_ACK', 'upload_id': '13087394-3927-453f-9b48-94676ce0e341', 'status': 'ready'}
+2026-09-14 19:09:49,616  INFO      fileshare.client.net — UPLOAD CHUNK 1: size=870
+2026-09-14 19:09:49,616  INFO      fileshare.client.net — UPLOAD CHUNK 1: sent, waiting for ACK
+2026-09-14 19:09:49,617  INFO      fileshare.client.net — UPLOAD CHUNK 1: ACK received: {'type': 'UPLOAD_ACK', 'upload_id': '13087394-3927-453f-9b48-94676ce0e341', 'status': 'chunk_ok', 'received': 870}
+2026-09-14 19:09:49,619  INFO      fileshare.client.gui — ⬆ Uploading data.csv… 100%
+2026-09-14 19:09:49,620  INFO      fileshare.client.net — UPLOAD DONE: sending final request, total=870 bytes
+2026-09-14 19:09:49,620  INFO      fileshare.client.gui — Uploading data.csv… 100%
+2026-09-14 19:09:49,620  INFO      fileshare.client.net — UPLOAD DONE: request sent, waiting for response
+2026-09-14 19:09:49,624  INFO      fileshare.client.net — UPLOAD DONE: response received: {'type': 'OK', 'message': 'Upload complete', 'node_id': 2}
+2026-09-14 19:09:49,626  INFO      fileshare.client.net — UPLOAD COMPLETE: data.csv (870 bytes)
+2026-09-14 19:09:49,627  INFO      fileshare.client.gui — Uploading data.csv… 100%
+2026-09-14 19:09:49,660  INFO      fileshare.client.gui — ✓ data.csv uploaded
+2026-09-14 19:09:49,661  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:09:49,662  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:09:49,663  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:09:49,663  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:09:49,663  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 1, 'items': [{'id': 2, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'data.csv', 'file_size': 870, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T13:39:49.621529', 'is_protected': False}]}
+2026-09-14 19:09:49,669  INFO      fileshare.client.gui — 1 item in this folder
+2026-09-14 19:11:06,855  INFO      fileshare.client.net — REQUEST: LOGOUT
+2026-09-14 19:11:06,855  INFO      fileshare.client.net — REQUEST LOGOUT: lock acquired
+2026-09-14 19:11:06,856  INFO      fileshare.client.net — REQUEST LOGOUT: sent, waiting for response
+2026-09-14 19:11:06,856  INFO      fileshare.client.net — REQUEST LOGOUT: response={'type': 'OK', 'message': 'Logged out'}
+2026-09-14 19:11:06,856  INFO      fileshare.client.net — Disconnected from server
+2026-09-14 19:11:25,729  INFO      fileshare.client.net — Connected to 127.0.0.1:9000
+2026-09-14 19:11:25,729  INFO      fileshare.client.net — REQUEST: LOGIN
+2026-09-14 19:11:25,729  INFO      fileshare.client.net — REQUEST LOGIN: lock acquired
+2026-09-14 19:11:25,730  INFO      fileshare.client.net — REQUEST LOGIN: sent, waiting for response
+2026-09-14 19:11:25,730  INFO      fileshare.client.net — REQUEST LOGIN: response={'type': 'OK', 'message': 'Welcome, alex!', 'username': 'alex'}
+2026-09-14 19:11:26,122  INFO      fileshare.client.net — REQUEST: SUBSCRIBE
+2026-09-14 19:11:26,122  INFO      fileshare.client.net — REQUEST SUBSCRIBE: lock acquired
+2026-09-14 19:11:26,122  INFO      fileshare.client.net — REQUEST SUBSCRIBE: sent, waiting for response
+2026-09-14 19:11:26,122  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:11:26,123  INFO      fileshare.client.net — REQUEST SUBSCRIBE: response={'type': 'OK', 'message': 'Subscribed to notifications'}
+2026-09-14 19:11:26,123  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:11:26,123  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:11:26,124  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:11:26,124  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 1, 'items': [{'id': 2, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'data.csv', 'file_size': 870, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T13:39:49.621529', 'is_protected': False}]}
+2026-09-14 19:11:26,126  INFO      fileshare.client.gui — 1 item in this folder
+2026-09-14 19:11:42,914  INFO      fileshare.client.net — REQUEST: CREATE_FOLDER
+2026-09-14 19:11:42,915  INFO      fileshare.client.net — REQUEST CREATE_FOLDER: lock acquired
+2026-09-14 19:11:42,918  INFO      fileshare.client.net — REQUEST CREATE_FOLDER: sent, waiting for response
+2026-09-14 19:11:42,922  INFO      fileshare.client.net — REQUEST CREATE_FOLDER: response={'type': 'OK', 'message': "Folder 'data' created", 'id': 3}
+2026-09-14 19:11:42,938  INFO      fileshare.client.gui — ✓ Folder 'data' created
+2026-09-14 19:11:42,939  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:11:42,940  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:11:42,941  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:11:42,941  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:11:42,942  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 1, 'items': [{'id': 3, 'parent_id': 1, 'owner': 'alex', 'node_type': 'folder', 'name': 'data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:41:42.918821', 'is_protected': True}, {'id': 2, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'data.csv', 'file_size': 870, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T13:39:49.621529', 'is_protected': False}]}
+2026-09-14 19:11:42,945  INFO      fileshare.client.gui — 2 items in this folder
+2026-09-14 19:11:44,319  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:11:44,320  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:11:44,321  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:11:44,321  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:11:44,321  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'ERROR', 'message': 'PASSWORD_REQUIRED'}
+2026-09-14 19:12:02,094  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:12:02,096  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:12:02,096  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:12:02,096  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:12:02,097  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 1, 'items': [{'id': 3, 'parent_id': 1, 'owner': 'alex', 'node_type': 'folder', 'name': 'data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:41:42.918821', 'is_protected': True}, {'id': 2, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'data.csv', 'file_size': 870, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T13:39:49.621529', 'is_protected': False}]}
+2026-09-14 19:12:02,099  INFO      fileshare.client.gui — 2 items in this folder
+2026-09-14 19:12:05,406  INFO      fileshare.client.net — REQUEST: LOGOUT
+2026-09-14 19:12:05,407  INFO      fileshare.client.net — REQUEST LOGOUT: lock acquired
+2026-09-14 19:12:05,407  INFO      fileshare.client.net — REQUEST LOGOUT: sent, waiting for response
+2026-09-14 19:12:05,408  INFO      fileshare.client.net — REQUEST LOGOUT: response={'type': 'OK', 'message': 'Logged out'}
+2026-09-14 19:12:05,408  INFO      fileshare.client.net — Disconnected from server
+2026-09-14 19:22:40,457  INFO      fileshare.client.net — Connected to 127.0.0.1:9000
+2026-09-14 19:22:40,457  INFO      fileshare.client.net — REQUEST: LOGIN
+2026-09-14 19:22:40,457  INFO      fileshare.client.net — REQUEST LOGIN: lock acquired
+2026-09-14 19:22:40,458  INFO      fileshare.client.net — REQUEST LOGIN: sent, waiting for response
+2026-09-14 19:22:40,458  INFO      fileshare.client.net — REQUEST LOGIN: response={'type': 'OK', 'message': 'Welcome, jack!', 'username': 'jack'}
+2026-09-14 19:22:40,853  INFO      fileshare.client.net — REQUEST: SUBSCRIBE
+2026-09-14 19:22:40,853  INFO      fileshare.client.net — REQUEST SUBSCRIBE: lock acquired
+2026-09-14 19:22:40,853  INFO      fileshare.client.net — REQUEST SUBSCRIBE: sent, waiting for response
+2026-09-14 19:22:40,854  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:22:40,854  INFO      fileshare.client.net — REQUEST SUBSCRIBE: response={'type': 'OK', 'message': 'Subscribed to notifications'}
+2026-09-14 19:22:40,854  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:22:40,854  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:22:40,855  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:22:40,855  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 1, 'items': [{'id': 3, 'parent_id': 1, 'owner': 'alex', 'node_type': 'folder', 'name': 'data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:41:42.918821', 'is_protected': True}, {'id': 2, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'data.csv', 'file_size': 870, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T13:39:49.621529', 'is_protected': False}]}
+2026-09-14 19:22:40,856  INFO      fileshare.client.gui — 2 items in this folder
+2026-09-14 19:24:25,616  INFO      fileshare.client.net — REQUEST: CREATE_FOLDER
+2026-09-14 19:24:25,619  INFO      fileshare.client.net — REQUEST CREATE_FOLDER: lock acquired
+2026-09-14 19:24:25,625  INFO      fileshare.client.net — REQUEST CREATE_FOLDER: sent, waiting for response
+2026-09-14 19:24:25,628  INFO      fileshare.client.net — REQUEST CREATE_FOLDER: response={'type': 'OK', 'message': "Folder 'my data' created", 'id': 4}
+2026-09-14 19:24:25,660  INFO      fileshare.client.gui — ✓ Folder 'my data' created
+2026-09-14 19:24:25,661  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:24:25,662  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:24:25,665  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:24:25,666  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:24:25,666  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 1, 'items': [{'id': 3, 'parent_id': 1, 'owner': 'alex', 'node_type': 'folder', 'name': 'data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:41:42.918821', 'is_protected': True}, {'id': 4, 'parent_id': 1, 'owner': 'jack', 'node_type': 'folder', 'name': 'my data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:54:25.625729', 'is_protected': True}, {'id': 2, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'data.csv', 'file_size': 870, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T13:39:49.621529', 'is_protected': False}]}
+2026-09-14 19:24:25,669  INFO      fileshare.client.gui — 3 items in this folder
+2026-09-14 19:26:08,935  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:26:08,936  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:26:08,936  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:26:08,937  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:26:08,937  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'ERROR', 'message': 'PASSWORD_REQUIRED'}
+2026-09-14 19:27:02,735  INFO      fileshare.client.net — REQUEST: SEARCH
+2026-09-14 19:27:02,736  INFO      fileshare.client.net — REQUEST SEARCH: lock acquired
+2026-09-14 19:27:02,737  INFO      fileshare.client.net — REQUEST SEARCH: sent, waiting for response
+2026-09-14 19:27:02,737  INFO      fileshare.client.net — REQUEST SEARCH: response={'type': 'SEARCH_RESULTS', 'query': 'data', 'results': [{'id': 2, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'data.csv', 'file_size': 870, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T13:39:49.621529', 'is_protected': False}]}
+2026-09-14 19:27:02,738  INFO      fileshare.client.gui — 1 result(s) for "data"
+2026-09-14 19:29:37,894  INFO      fileshare.client.net — REQUEST: LOGOUT
+2026-09-14 19:29:37,894  INFO      fileshare.client.net — REQUEST LOGOUT: lock acquired
+2026-09-14 19:29:37,895  INFO      fileshare.client.net — REQUEST LOGOUT: sent, waiting for response
+2026-09-14 19:29:37,896  INFO      fileshare.client.net — REQUEST LOGOUT: response={'type': 'OK', 'message': 'Logged out'}
+2026-09-14 19:29:37,896  INFO      fileshare.client.net — Disconnected from server
+2026-09-14 19:29:57,673  INFO      fileshare.client.net — Connected to 127.0.0.1:9000
+2026-09-14 19:29:57,673  INFO      fileshare.client.net — REQUEST: LOGIN
+2026-09-14 19:29:57,673  INFO      fileshare.client.net — REQUEST LOGIN: lock acquired
+2026-09-14 19:29:57,674  INFO      fileshare.client.net — REQUEST LOGIN: sent, waiting for response
+2026-09-14 19:29:57,674  INFO      fileshare.client.net — REQUEST LOGIN: response={'type': 'OK', 'message': 'Welcome, jack!', 'username': 'jack'}
+2026-09-14 19:29:58,137  INFO      fileshare.client.net — REQUEST: SUBSCRIBE
+2026-09-14 19:29:58,138  INFO      fileshare.client.net — REQUEST SUBSCRIBE: lock acquired
+2026-09-14 19:29:58,138  INFO      fileshare.client.net — REQUEST SUBSCRIBE: sent, waiting for response
+2026-09-14 19:29:58,138  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:29:58,138  INFO      fileshare.client.net — REQUEST SUBSCRIBE: response={'type': 'OK', 'message': 'Subscribed to notifications'}
+2026-09-14 19:29:58,138  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:29:58,139  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:29:58,139  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:29:58,139  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 1, 'items': [{'id': 3, 'parent_id': 1, 'owner': 'alex', 'node_type': 'folder', 'name': 'data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:41:42.918821', 'is_protected': True}, {'id': 4, 'parent_id': 1, 'owner': 'jack', 'node_type': 'folder', 'name': 'my data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:54:25.625729', 'is_protected': True}, {'id': 2, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'data.csv', 'file_size': 870, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T13:39:49.621529', 'is_protected': False}]}
+2026-09-14 19:29:58,190  INFO      fileshare.client.gui — 3 items in this folder
+2026-09-14 19:30:12,878  INFO      fileshare.client.gui — Uploading Nike Dataset.csv…
+2026-09-14 19:30:12,959  INFO      fileshare.client.net — UPLOAD START: Nike Dataset.csv (821590 bytes)
+2026-09-14 19:30:12,959  INFO      fileshare.client.net — UPLOAD INIT: waiting for socket lock
+2026-09-14 19:30:12,960  INFO      fileshare.client.net — UPLOAD INIT: lock acquired
+2026-09-14 19:30:12,960  INFO      fileshare.client.net — UPLOAD INIT: sending request
+2026-09-14 19:30:12,960  INFO      fileshare.client.net — UPLOAD INIT: request sent, waiting for response
+2026-09-14 19:30:12,963  INFO      fileshare.client.net — UPLOAD INIT: response received: {'type': 'UPLOAD_ACK', 'upload_id': '9a05dffd-6ce7-4b38-bef7-65a0c7aedaa6', 'status': 'ready'}
+2026-09-14 19:30:12,963  INFO      fileshare.client.net — UPLOAD CHUNK 1: size=65536
+2026-09-14 19:30:12,964  INFO      fileshare.client.net — UPLOAD CHUNK 1: sent, waiting for ACK
+2026-09-14 19:30:12,965  INFO      fileshare.client.net — UPLOAD CHUNK 1: ACK received: {'type': 'UPLOAD_ACK', 'upload_id': '9a05dffd-6ce7-4b38-bef7-65a0c7aedaa6', 'status': 'chunk_ok', 'received': 65536}
+2026-09-14 19:30:12,968  INFO      fileshare.client.gui — ⬆ Uploading Nike Dataset.csv… 7%
+2026-09-14 19:30:12,968  INFO      fileshare.client.net — UPLOAD CHUNK 2: size=65536
+2026-09-14 19:30:12,969  INFO      fileshare.client.gui — Uploading Nike Dataset.csv… 7%
+2026-09-14 19:30:12,969  INFO      fileshare.client.net — UPLOAD CHUNK 2: sent, waiting for ACK
+2026-09-14 19:30:12,972  INFO      fileshare.client.net — UPLOAD CHUNK 2: ACK received: {'type': 'UPLOAD_ACK', 'upload_id': '9a05dffd-6ce7-4b38-bef7-65a0c7aedaa6', 'status': 'chunk_ok', 'received': 131072}
+2026-09-14 19:30:12,972  INFO      fileshare.client.gui — ⬆ Uploading Nike Dataset.csv… 15%
+2026-09-14 19:30:12,974  INFO      fileshare.client.gui — Uploading Nike Dataset.csv… 15%
+2026-09-14 19:30:12,974  INFO      fileshare.client.net — UPLOAD CHUNK 3: size=65536
+2026-09-14 19:30:12,980  INFO      fileshare.client.net — UPLOAD CHUNK 3: sent, waiting for ACK
+2026-09-14 19:30:12,986  INFO      fileshare.client.net — UPLOAD CHUNK 3: ACK received: {'type': 'UPLOAD_ACK', 'upload_id': '9a05dffd-6ce7-4b38-bef7-65a0c7aedaa6', 'status': 'chunk_ok', 'received': 196608}
+2026-09-14 19:30:12,986  INFO      fileshare.client.gui — ⬆ Uploading Nike Dataset.csv… 23%
+2026-09-14 19:30:12,988  INFO      fileshare.client.net — UPLOAD CHUNK 4: size=65536
+2026-09-14 19:30:12,988  INFO      fileshare.client.gui — Uploading Nike Dataset.csv… 23%
+2026-09-14 19:30:12,989  INFO      fileshare.client.net — UPLOAD CHUNK 4: sent, waiting for ACK
+2026-09-14 19:30:13,017  INFO      fileshare.client.net — UPLOAD CHUNK 4: ACK received: {'type': 'UPLOAD_ACK', 'upload_id': '9a05dffd-6ce7-4b38-bef7-65a0c7aedaa6', 'status': 'chunk_ok', 'received': 262144}
+2026-09-14 19:30:13,018  INFO      fileshare.client.gui — ⬆ Uploading Nike Dataset.csv… 31%
+2026-09-14 19:30:13,018  INFO      fileshare.client.net — UPLOAD CHUNK 5: size=65536
+2026-09-14 19:30:13,018  INFO      fileshare.client.gui — Uploading Nike Dataset.csv… 31%
+2026-09-14 19:30:13,019  INFO      fileshare.client.net — UPLOAD CHUNK 5: sent, waiting for ACK
+2026-09-14 19:30:13,028  INFO      fileshare.client.net — UPLOAD CHUNK 5: ACK received: {'type': 'UPLOAD_ACK', 'upload_id': '9a05dffd-6ce7-4b38-bef7-65a0c7aedaa6', 'status': 'chunk_ok', 'received': 327680}
+2026-09-14 19:30:13,029  INFO      fileshare.client.gui — ⬆ Uploading Nike Dataset.csv… 39%
+2026-09-14 19:30:13,033  INFO      fileshare.client.net — UPLOAD CHUNK 6: size=65536
+2026-09-14 19:30:13,033  INFO      fileshare.client.gui — Uploading Nike Dataset.csv… 39%
+2026-09-14 19:30:13,034  INFO      fileshare.client.net — UPLOAD CHUNK 6: sent, waiting for ACK
+2026-09-14 19:30:13,038  INFO      fileshare.client.net — UPLOAD CHUNK 6: ACK received: {'type': 'UPLOAD_ACK', 'upload_id': '9a05dffd-6ce7-4b38-bef7-65a0c7aedaa6', 'status': 'chunk_ok', 'received': 393216}
+2026-09-14 19:30:13,043  INFO      fileshare.client.gui — ⬆ Uploading Nike Dataset.csv… 47%
+2026-09-14 19:30:13,047  INFO      fileshare.client.gui — Uploading Nike Dataset.csv… 47%
+2026-09-14 19:30:13,048  INFO      fileshare.client.net — UPLOAD CHUNK 7: size=65536
+2026-09-14 19:30:13,050  INFO      fileshare.client.net — UPLOAD CHUNK 7: sent, waiting for ACK
+2026-09-14 19:30:13,052  INFO      fileshare.client.net — UPLOAD CHUNK 7: ACK received: {'type': 'UPLOAD_ACK', 'upload_id': '9a05dffd-6ce7-4b38-bef7-65a0c7aedaa6', 'status': 'chunk_ok', 'received': 458752}
+2026-09-14 19:30:13,052  INFO      fileshare.client.gui — ⬆ Uploading Nike Dataset.csv… 55%
+2026-09-14 19:30:13,055  INFO      fileshare.client.net — UPLOAD CHUNK 8: size=65536
+2026-09-14 19:30:13,055  INFO      fileshare.client.gui — Uploading Nike Dataset.csv… 55%
+2026-09-14 19:30:13,067  INFO      fileshare.client.net — UPLOAD CHUNK 8: sent, waiting for ACK
+2026-09-14 19:30:13,072  INFO      fileshare.client.net — UPLOAD CHUNK 8: ACK received: {'type': 'UPLOAD_ACK', 'upload_id': '9a05dffd-6ce7-4b38-bef7-65a0c7aedaa6', 'status': 'chunk_ok', 'received': 524288}
+2026-09-14 19:30:13,073  INFO      fileshare.client.gui — ⬆ Uploading Nike Dataset.csv… 63%
+2026-09-14 19:30:13,081  INFO      fileshare.client.net — UPLOAD CHUNK 9: size=65536
+2026-09-14 19:30:13,081  INFO      fileshare.client.gui — Uploading Nike Dataset.csv… 63%
+2026-09-14 19:30:13,088  INFO      fileshare.client.net — UPLOAD CHUNK 9: sent, waiting for ACK
+2026-09-14 19:30:13,095  INFO      fileshare.client.net — UPLOAD CHUNK 9: ACK received: {'type': 'UPLOAD_ACK', 'upload_id': '9a05dffd-6ce7-4b38-bef7-65a0c7aedaa6', 'status': 'chunk_ok', 'received': 589824}
+2026-09-14 19:30:13,096  INFO      fileshare.client.gui — ⬆ Uploading Nike Dataset.csv… 71%
+2026-09-14 19:30:13,105  INFO      fileshare.client.net — UPLOAD CHUNK 10: size=65536
+2026-09-14 19:30:13,105  INFO      fileshare.client.gui — Uploading Nike Dataset.csv… 71%
+2026-09-14 19:30:13,112  INFO      fileshare.client.net — UPLOAD CHUNK 10: sent, waiting for ACK
+2026-09-14 19:30:13,118  INFO      fileshare.client.net — UPLOAD CHUNK 10: ACK received: {'type': 'UPLOAD_ACK', 'upload_id': '9a05dffd-6ce7-4b38-bef7-65a0c7aedaa6', 'status': 'chunk_ok', 'received': 655360}
+2026-09-14 19:30:13,119  INFO      fileshare.client.gui — ⬆ Uploading Nike Dataset.csv… 79%
+2026-09-14 19:30:13,132  INFO      fileshare.client.net — UPLOAD CHUNK 11: size=65536
+2026-09-14 19:30:13,132  INFO      fileshare.client.gui — Uploading Nike Dataset.csv… 79%
+2026-09-14 19:30:13,134  INFO      fileshare.client.net — UPLOAD CHUNK 11: sent, waiting for ACK
+2026-09-14 19:30:13,143  INFO      fileshare.client.net — UPLOAD CHUNK 11: ACK received: {'type': 'UPLOAD_ACK', 'upload_id': '9a05dffd-6ce7-4b38-bef7-65a0c7aedaa6', 'status': 'chunk_ok', 'received': 720896}
+2026-09-14 19:30:13,166  INFO      fileshare.client.gui — ⬆ Uploading Nike Dataset.csv… 87%
+2026-09-14 19:30:13,170  INFO      fileshare.client.net — UPLOAD CHUNK 12: size=65536
+2026-09-14 19:30:13,170  INFO      fileshare.client.gui — Uploading Nike Dataset.csv… 87%
+2026-09-14 19:30:13,171  INFO      fileshare.client.net — UPLOAD CHUNK 12: sent, waiting for ACK
+2026-09-14 19:30:13,180  INFO      fileshare.client.net — UPLOAD CHUNK 12: ACK received: {'type': 'UPLOAD_ACK', 'upload_id': '9a05dffd-6ce7-4b38-bef7-65a0c7aedaa6', 'status': 'chunk_ok', 'received': 786432}
+2026-09-14 19:30:13,180  INFO      fileshare.client.gui — ⬆ Uploading Nike Dataset.csv… 95%
+2026-09-14 19:30:13,182  INFO      fileshare.client.net — UPLOAD CHUNK 13: size=35158
+2026-09-14 19:30:13,182  INFO      fileshare.client.gui — Uploading Nike Dataset.csv… 95%
+2026-09-14 19:30:13,183  INFO      fileshare.client.net — UPLOAD CHUNK 13: sent, waiting for ACK
+2026-09-14 19:30:13,187  INFO      fileshare.client.net — UPLOAD CHUNK 13: ACK received: {'type': 'UPLOAD_ACK', 'upload_id': '9a05dffd-6ce7-4b38-bef7-65a0c7aedaa6', 'status': 'chunk_ok', 'received': 821590}
+2026-09-14 19:30:13,188  INFO      fileshare.client.gui — ⬆ Uploading Nike Dataset.csv… 100%
+2026-09-14 19:30:13,191  INFO      fileshare.client.net — UPLOAD DONE: sending final request, total=821590 bytes
+2026-09-14 19:30:13,191  INFO      fileshare.client.gui — Uploading Nike Dataset.csv… 100%
+2026-09-14 19:30:13,200  INFO      fileshare.client.net — UPLOAD DONE: request sent, waiting for response
+2026-09-14 19:30:13,204  INFO      fileshare.client.net — UPLOAD DONE: response received: {'type': 'OK', 'message': 'Upload complete', 'node_id': 5}
+2026-09-14 19:30:13,204  INFO      fileshare.client.net — UPLOAD COMPLETE: Nike Dataset.csv (821590 bytes)
+2026-09-14 19:30:13,205  INFO      fileshare.client.gui — Uploading Nike Dataset.csv… 100%
+2026-09-14 19:30:13,240  INFO      fileshare.client.gui — ✓ Nike Dataset.csv uploaded
+2026-09-14 19:30:13,246  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:30:13,254  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:30:13,263  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:30:13,264  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:30:13,264  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 1, 'items': [{'id': 3, 'parent_id': 1, 'owner': 'alex', 'node_type': 'folder', 'name': 'data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:41:42.918821', 'is_protected': True}, {'id': 4, 'parent_id': 1, 'owner': 'jack', 'node_type': 'folder', 'name': 'my data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:54:25.625729', 'is_protected': True}, {'id': 5, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'Nike Dataset.csv', 'file_size': 821590, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T14:00:13.201169', 'is_protected': False}, {'id': 2, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'data.csv', 'file_size': 870, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T13:39:49.621529', 'is_protected': False}]}
+2026-09-14 19:30:13,268  INFO      fileshare.client.gui — 4 items in this folder
+2026-09-14 19:30:18,965  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:30:19,194  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:30:19,197  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:30:19,197  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:30:19,198  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'ERROR', 'message': 'PASSWORD_REQUIRED'}
+2026-09-14 19:30:23,449  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:30:23,465  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:30:23,478  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:30:23,483  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:30:23,484  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 4, 'items': []}
+2026-09-14 19:30:23,514  INFO      fileshare.client.gui — 0 items in this folder
+2026-09-14 19:30:25,303  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:30:25,304  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:30:25,304  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:30:25,305  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:30:25,305  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'ERROR', 'message': 'PASSWORD_REQUIRED'}
+2026-09-14 19:30:26,334  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:30:26,337  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:30:26,338  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:30:26,348  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:30:26,358  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'ERROR', 'message': 'PASSWORD_REQUIRED'}
+2026-09-14 19:30:28,967  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:30:28,968  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:30:28,968  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:30:28,968  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:30:28,968  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 1, 'items': [{'id': 3, 'parent_id': 1, 'owner': 'alex', 'node_type': 'folder', 'name': 'data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:41:42.918821', 'is_protected': True}, {'id': 4, 'parent_id': 1, 'owner': 'jack', 'node_type': 'folder', 'name': 'my data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:54:25.625729', 'is_protected': True}, {'id': 5, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'Nike Dataset.csv', 'file_size': 821590, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T14:00:13.201169', 'is_protected': False}, {'id': 2, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'data.csv', 'file_size': 870, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T13:39:49.621529', 'is_protected': False}]}
+2026-09-14 19:30:28,972  INFO      fileshare.client.gui — 4 items in this folder
+2026-09-14 19:30:45,908  INFO      fileshare.client.gui — Downloading Nike Dataset.csv…
+2026-09-14 19:30:45,911  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 7%
+2026-09-14 19:30:45,915  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 7%
+2026-09-14 19:30:45,916  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 15%
+2026-09-14 19:30:45,916  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 15%
+2026-09-14 19:30:45,928  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 23%
+2026-09-14 19:30:45,932  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 23%
+2026-09-14 19:30:45,935  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 31%
+2026-09-14 19:30:45,942  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 31%
+2026-09-14 19:30:45,943  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 39%
+2026-09-14 19:30:45,944  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 39%
+2026-09-14 19:30:45,954  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 47%
+2026-09-14 19:30:45,962  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 47%
+2026-09-14 19:30:45,965  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 55%
+2026-09-14 19:30:45,967  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 55%
+2026-09-14 19:30:45,973  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 63%
+2026-09-14 19:30:45,973  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 63%
+2026-09-14 19:30:45,975  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 71%
+2026-09-14 19:30:45,975  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 71%
+2026-09-14 19:30:45,977  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 79%
+2026-09-14 19:30:45,982  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 79%
+2026-09-14 19:30:45,987  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 87%
+2026-09-14 19:30:46,005  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 87%
+2026-09-14 19:30:46,007  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 95%
+2026-09-14 19:30:46,014  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 95%
+2026-09-14 19:30:46,016  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 100%
+2026-09-14 19:30:46,020  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 100%
+2026-09-14 19:30:46,023  INFO      fileshare.client.gui — ✓ Saved to C:/Users/admin/Desktop\Nike Dataset.csv
+2026-09-14 19:31:44,726  INFO      fileshare.client.net — REQUEST: LOGOUT
+2026-09-14 19:31:44,727  INFO      fileshare.client.net — REQUEST LOGOUT: lock acquired
+2026-09-14 19:31:44,727  INFO      fileshare.client.net — REQUEST LOGOUT: sent, waiting for response
+2026-09-14 19:31:44,729  INFO      fileshare.client.net — REQUEST LOGOUT: response={'type': 'OK', 'message': 'Logged out'}
+2026-09-14 19:31:44,729  INFO      fileshare.client.net — Disconnected from server
+2026-09-14 19:31:58,769  INFO      fileshare.client.net — Connected to 127.0.0.1:9000
+2026-09-14 19:31:58,769  INFO      fileshare.client.net — REQUEST: LOGIN
+2026-09-14 19:31:58,770  INFO      fileshare.client.net — REQUEST LOGIN: lock acquired
+2026-09-14 19:31:58,770  INFO      fileshare.client.net — REQUEST LOGIN: sent, waiting for response
+2026-09-14 19:31:58,770  INFO      fileshare.client.net — REQUEST LOGIN: response={'type': 'OK', 'message': 'Welcome, alex!', 'username': 'alex'}
+2026-09-14 19:31:59,214  INFO      fileshare.client.net — REQUEST: SUBSCRIBE
+2026-09-14 19:31:59,216  INFO      fileshare.client.net — REQUEST SUBSCRIBE: lock acquired
+2026-09-14 19:31:59,216  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:31:59,216  INFO      fileshare.client.net — REQUEST SUBSCRIBE: sent, waiting for response
+2026-09-14 19:31:59,217  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:31:59,218  INFO      fileshare.client.net — REQUEST SUBSCRIBE: response={'type': 'OK', 'message': 'Subscribed to notifications'}
+2026-09-14 19:31:59,220  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:31:59,223  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:31:59,226  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 1, 'items': [{'id': 3, 'parent_id': 1, 'owner': 'alex', 'node_type': 'folder', 'name': 'data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:41:42.918821', 'is_protected': True}, {'id': 4, 'parent_id': 1, 'owner': 'jack', 'node_type': 'folder', 'name': 'my data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:54:25.625729', 'is_protected': True}, {'id': 5, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'Nike Dataset.csv', 'file_size': 821590, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T14:00:13.201169', 'is_protected': False}, {'id': 2, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'data.csv', 'file_size': 870, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T13:39:49.621529', 'is_protected': False}]}
+2026-09-14 19:31:59,249  INFO      fileshare.client.gui — 4 items in this folder
+2026-09-14 19:32:09,935  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:32:09,935  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:32:09,936  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:32:09,936  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:32:09,936  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'ERROR', 'message': 'PASSWORD_REQUIRED'}
+2026-09-14 19:32:14,166  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:32:14,169  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:32:14,169  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:32:14,171  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:32:14,177  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 3, 'items': []}
+2026-09-14 19:32:14,200  INFO      fileshare.client.gui — 0 items in this folder
+2026-09-14 19:32:50,501  INFO      fileshare.client.gui — Uploading meeting data.csv…
+2026-09-14 19:32:50,569  INFO      fileshare.client.net — UPLOAD START: meeting data.csv (265 bytes)
+2026-09-14 19:32:50,569  INFO      fileshare.client.net — UPLOAD INIT: waiting for socket lock
+2026-09-14 19:32:50,569  INFO      fileshare.client.net — UPLOAD INIT: lock acquired
+2026-09-14 19:32:50,570  INFO      fileshare.client.net — UPLOAD INIT: sending request
+2026-09-14 19:32:50,570  INFO      fileshare.client.net — UPLOAD INIT: request sent, waiting for response
+2026-09-14 19:32:50,572  INFO      fileshare.client.net — UPLOAD INIT: response received: {'type': 'UPLOAD_ACK', 'upload_id': '60e64822-9e9d-4d7e-98c3-93ca76a6fa9b', 'status': 'ready'}
+2026-09-14 19:32:50,573  INFO      fileshare.client.net — UPLOAD CHUNK 1: size=265
+2026-09-14 19:32:50,573  INFO      fileshare.client.net — UPLOAD CHUNK 1: sent, waiting for ACK
+2026-09-14 19:32:50,573  INFO      fileshare.client.net — UPLOAD CHUNK 1: ACK received: {'type': 'UPLOAD_ACK', 'upload_id': '60e64822-9e9d-4d7e-98c3-93ca76a6fa9b', 'status': 'chunk_ok', 'received': 265}
+2026-09-14 19:32:50,576  INFO      fileshare.client.gui — ⬆ Uploading meeting data.csv… 100%
+2026-09-14 19:32:50,578  INFO      fileshare.client.net — UPLOAD DONE: sending final request, total=265 bytes
+2026-09-14 19:32:50,578  INFO      fileshare.client.gui — Uploading meeting data.csv… 100%
+2026-09-14 19:32:50,578  INFO      fileshare.client.net — UPLOAD DONE: request sent, waiting for response
+2026-09-14 19:32:50,583  INFO      fileshare.client.net — UPLOAD DONE: response received: {'type': 'OK', 'message': 'Upload complete', 'node_id': 6}
+2026-09-14 19:32:50,592  INFO      fileshare.client.net — UPLOAD COMPLETE: meeting data.csv (265 bytes)
+2026-09-14 19:32:50,592  INFO      fileshare.client.gui — Uploading meeting data.csv… 100%
+2026-09-14 19:32:50,651  INFO      fileshare.client.gui — ✓ meeting data.csv uploaded
+2026-09-14 19:32:50,656  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:32:50,658  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:32:50,666  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:32:50,667  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:32:50,667  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'ERROR', 'message': 'PASSWORD_REQUIRED'}
+2026-09-14 19:32:55,431  INFO      fileshare.client.gui — Loading…
+2026-09-14 19:32:55,433  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-14 19:32:55,435  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-14 19:32:55,436  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-14 19:32:55,436  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 3, 'items': [{'id': 6, 'parent_id': 3, 'owner': 'alex', 'node_type': 'file', 'name': 'meeting data.csv', 'file_size': 265, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T14:02:50.578750', 'is_protected': False}]}
+2026-09-14 19:32:55,441  INFO      fileshare.client.gui — 1 item in this folder
+2026-09-14 19:33:28,711  INFO      fileshare.client.net — REQUEST: LOGOUT
+2026-09-14 19:33:28,711  INFO      fileshare.client.net — REQUEST LOGOUT: lock acquired
+2026-09-14 19:33:28,712  INFO      fileshare.client.net — REQUEST LOGOUT: sent, waiting for response
+2026-09-14 19:33:28,714  INFO      fileshare.client.net — REQUEST LOGOUT: response={'type': 'OK', 'message': 'Logged out'}
+2026-09-14 19:33:28,714  INFO      fileshare.client.net — Disconnected from server
+2026-09-15 11:39:09,369  INFO      fileshare.client.net — Connected to 127.0.0.1:9000
+2026-09-15 11:39:09,371  INFO      fileshare.client.net — REQUEST: LOGIN
+2026-09-15 11:39:09,371  INFO      fileshare.client.net — REQUEST LOGIN: lock acquired
+2026-09-15 11:39:09,371  INFO      fileshare.client.net — REQUEST LOGIN: sent, waiting for response
+2026-09-15 11:39:09,373  INFO      fileshare.client.net — REQUEST LOGIN: response={'type': 'OK', 'message': 'Welcome, jack!', 'username': 'jack'}
+2026-09-15 11:39:09,907  INFO      fileshare.client.net — REQUEST: SUBSCRIBE
+2026-09-15 11:39:09,908  INFO      fileshare.client.net — REQUEST SUBSCRIBE: lock acquired
+2026-09-15 11:39:09,908  INFO      fileshare.client.gui — Loading…
+2026-09-15 11:39:09,908  INFO      fileshare.client.net — REQUEST SUBSCRIBE: sent, waiting for response
+2026-09-15 11:39:09,911  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-15 11:39:09,913  INFO      fileshare.client.net — REQUEST SUBSCRIBE: response={'type': 'OK', 'message': 'Subscribed to notifications'}
+2026-09-15 11:39:09,913  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-15 11:39:09,915  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-15 11:39:09,916  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 1, 'items': [{'id': 3, 'parent_id': 1, 'owner': 'alex', 'node_type': 'folder', 'name': 'data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:41:42.918821', 'is_protected': True}, {'id': 4, 'parent_id': 1, 'owner': 'jack', 'node_type': 'folder', 'name': 'my data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:54:25.625729', 'is_protected': True}, {'id': 5, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'Nike Dataset.csv', 'file_size': 821590, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T14:00:13.201169', 'is_protected': False}, {'id': 2, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'data.csv', 'file_size': 870, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T13:39:49.621529', 'is_protected': False}]}
+2026-09-15 11:39:09,928  INFO      fileshare.client.gui — 4 items in this folder
+2026-09-15 11:48:02,678  INFO      fileshare.client.gui — Loading…
+2026-09-15 11:48:02,679  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-15 11:48:02,679  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-15 11:48:02,680  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-15 11:48:02,680  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'ERROR', 'message': 'PASSWORD_REQUIRED'}
+2026-09-15 11:48:06,566  INFO      fileshare.client.gui — Loading…
+2026-09-15 11:48:06,569  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-15 11:48:06,571  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-15 11:48:06,573  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-15 11:48:06,580  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 4, 'items': []}
+2026-09-15 11:48:06,583  INFO      fileshare.client.gui — 0 items in this folder
+2026-09-15 11:48:15,251  INFO      fileshare.client.gui — Uploading meeting data.csv…
+2026-09-15 11:48:15,339  INFO      fileshare.client.net — UPLOAD START: meeting data.csv (265 bytes)
+2026-09-15 11:48:15,339  INFO      fileshare.client.net — UPLOAD INIT: waiting for socket lock
+2026-09-15 11:48:15,339  INFO      fileshare.client.net — UPLOAD INIT: lock acquired
+2026-09-15 11:48:15,340  INFO      fileshare.client.net — UPLOAD INIT: sending request
+2026-09-15 11:48:15,340  INFO      fileshare.client.net — UPLOAD INIT: request sent, waiting for response
+2026-09-15 11:48:15,341  INFO      fileshare.client.net — UPLOAD INIT: response received: {'type': 'UPLOAD_ACK', 'upload_id': 'a8522daa-8092-4ec3-b947-f3a9f5581c00', 'status': 'ready'}
+2026-09-15 11:48:15,341  INFO      fileshare.client.net — UPLOAD CHUNK 1: size=265
+2026-09-15 11:48:15,346  INFO      fileshare.client.net — UPLOAD CHUNK 1: sent, waiting for ACK
+2026-09-15 11:48:15,347  INFO      fileshare.client.net — UPLOAD CHUNK 1: ACK received: {'type': 'UPLOAD_ACK', 'upload_id': 'a8522daa-8092-4ec3-b947-f3a9f5581c00', 'status': 'chunk_ok', 'received': 265}
+2026-09-15 11:48:15,350  INFO      fileshare.client.gui — ⬆ Uploading meeting data.csv… 100%
+2026-09-15 11:48:15,351  INFO      fileshare.client.net — UPLOAD DONE: sending final request, total=265 bytes
+2026-09-15 11:48:15,351  INFO      fileshare.client.gui — Uploading meeting data.csv… 100%
+2026-09-15 11:48:15,353  INFO      fileshare.client.net — UPLOAD DONE: request sent, waiting for response
+2026-09-15 11:48:15,356  INFO      fileshare.client.net — UPLOAD DONE: response received: {'type': 'OK', 'message': 'Upload complete', 'node_id': 7}
+2026-09-15 11:48:15,356  INFO      fileshare.client.net — UPLOAD COMPLETE: meeting data.csv (265 bytes)
+2026-09-15 11:48:15,357  INFO      fileshare.client.gui — Uploading meeting data.csv… 100%
+2026-09-15 11:48:15,380  INFO      fileshare.client.gui — ✓ meeting data.csv uploaded
+2026-09-15 11:48:15,380  INFO      fileshare.client.gui — Loading…
+2026-09-15 11:48:15,381  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-15 11:48:15,381  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-15 11:48:15,381  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-15 11:48:15,382  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'ERROR', 'message': 'PASSWORD_REQUIRED'}
+2026-09-15 11:48:19,182  INFO      fileshare.client.gui — Loading…
+2026-09-15 11:48:19,366  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-15 11:48:19,382  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-15 11:48:19,382  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-15 11:48:19,383  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 4, 'items': [{'id': 7, 'parent_id': 4, 'owner': 'jack', 'node_type': 'file', 'name': 'meeting data.csv', 'file_size': 265, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-15T06:18:15.353663', 'is_protected': False}]}
+2026-09-15 11:48:19,385  INFO      fileshare.client.gui — 1 item in this folder
+2026-09-15 11:50:06,317  INFO      fileshare.client.gui — Loading…
+2026-09-15 11:50:06,318  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-15 11:50:06,318  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-15 11:50:06,318  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-15 11:50:06,319  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 1, 'items': [{'id': 3, 'parent_id': 1, 'owner': 'alex', 'node_type': 'folder', 'name': 'data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:41:42.918821', 'is_protected': True}, {'id': 4, 'parent_id': 1, 'owner': 'jack', 'node_type': 'folder', 'name': 'my data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:54:25.625729', 'is_protected': True}, {'id': 5, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'Nike Dataset.csv', 'file_size': 821590, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T14:00:13.201169', 'is_protected': False}, {'id': 2, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'data.csv', 'file_size': 870, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T13:39:49.621529', 'is_protected': False}]}
+2026-09-15 11:50:06,331  INFO      fileshare.client.gui — 4 items in this folder
+2026-09-15 11:50:14,117  INFO      fileshare.client.net — REQUEST: SEARCH
+2026-09-15 11:50:14,118  INFO      fileshare.client.net — REQUEST SEARCH: lock acquired
+2026-09-15 11:50:14,118  INFO      fileshare.client.net — REQUEST SEARCH: sent, waiting for response
+2026-09-15 11:50:14,119  INFO      fileshare.client.net — REQUEST SEARCH: response={'type': 'SEARCH_RESULTS', 'query': 'data', 'results': [{'id': 7, 'parent_id': 4, 'owner': 'jack', 'node_type': 'file', 'name': 'meeting data.csv', 'file_size': 265, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-15T06:18:15.353663', 'is_protected': False}, {'id': 6, 'parent_id': 3, 'owner': 'alex', 'node_type': 'file', 'name': 'meeting data.csv', 'file_size': 265, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T14:02:50.578750', 'is_protected': False}, {'id': 5, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'Nike Dataset.csv', 'file_size': 821590, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T14:00:13.201169', 'is_protected': False}, {'id': 2, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'data.csv', 'file_size': 870, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T13:39:49.621529', 'is_protected': False}]}
+2026-09-15 11:50:14,119  INFO      fileshare.client.gui — 4 result(s) for "data"
+2026-09-15 12:00:44,188  INFO      fileshare.client.gui — Loading…
+2026-09-15 12:00:44,189  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-15 12:00:44,189  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-15 12:00:44,189  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-15 12:00:44,190  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 1, 'items': [{'id': 3, 'parent_id': 1, 'owner': 'alex', 'node_type': 'folder', 'name': 'data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:41:42.918821', 'is_protected': True}, {'id': 4, 'parent_id': 1, 'owner': 'jack', 'node_type': 'folder', 'name': 'my data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:54:25.625729', 'is_protected': True}, {'id': 5, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'Nike Dataset.csv', 'file_size': 821590, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T14:00:13.201169', 'is_protected': False}, {'id': 2, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'data.csv', 'file_size': 870, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T13:39:49.621529', 'is_protected': False}]}
+2026-09-15 12:00:44,192  INFO      fileshare.client.gui — 4 items in this folder
+2026-09-15 12:01:29,845  INFO      fileshare.client.gui — Downloading Nike Dataset.csv…
+2026-09-15 12:01:29,868  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 7%
+2026-09-15 12:01:29,869  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 7%
+2026-09-15 12:01:29,870  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 15%
+2026-09-15 12:01:29,872  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 15%
+2026-09-15 12:01:29,875  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 23%
+2026-09-15 12:01:29,876  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 23%
+2026-09-15 12:01:29,880  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 31%
+2026-09-15 12:01:29,881  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 31%
+2026-09-15 12:01:29,884  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 39%
+2026-09-15 12:01:29,885  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 39%
+2026-09-15 12:01:29,886  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 47%
+2026-09-15 12:01:29,888  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 47%
+2026-09-15 12:01:29,889  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 55%
+2026-09-15 12:01:29,890  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 55%
+2026-09-15 12:01:29,895  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 63%
+2026-09-15 12:01:29,899  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 63%
+2026-09-15 12:01:29,900  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 71%
+2026-09-15 12:01:29,905  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 71%
+2026-09-15 12:01:29,905  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 79%
+2026-09-15 12:01:29,906  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 79%
+2026-09-15 12:01:29,909  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 87%
+2026-09-15 12:01:29,911  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 87%
+2026-09-15 12:01:29,912  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 95%
+2026-09-15 12:01:29,913  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 95%
+2026-09-15 12:01:29,914  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 100%
+2026-09-15 12:01:29,916  INFO      fileshare.client.gui — Downloading Nike Dataset.csv… 100%
+2026-09-15 12:01:29,918  INFO      fileshare.client.gui — ✓ Saved to C:/Users/admin/Documents\Nike Dataset.csv
+2026-09-15 12:04:58,684  INFO      fileshare.client.gui — Loading…
+2026-09-15 12:04:58,684  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-15 12:04:58,684  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-15 12:04:58,685  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-15 12:04:58,685  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 1, 'items': [{'id': 3, 'parent_id': 1, 'owner': 'alex', 'node_type': 'folder', 'name': 'data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:41:42.918821', 'is_protected': True}, {'id': 4, 'parent_id': 1, 'owner': 'jack', 'node_type': 'folder', 'name': 'my data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:54:25.625729', 'is_protected': True}, {'id': 5, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'Nike Dataset.csv', 'file_size': 821590, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T14:00:13.201169', 'is_protected': False}, {'id': 2, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'data.csv', 'file_size': 870, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T13:39:49.621529', 'is_protected': False}]}
+2026-09-15 12:04:58,686  INFO      fileshare.client.gui — ⬇ Downloading Nike Dataset.csv… 100%
+2026-09-15 12:04:58,690  INFO      fileshare.client.gui — 4 items in this folder
+2026-09-15 12:05:30,931  INFO      fileshare.client.net — REQUEST: SET_PASSWORD
+2026-09-15 12:05:30,945  INFO      fileshare.client.net — REQUEST SET_PASSWORD: lock acquired
+2026-09-15 12:05:30,952  INFO      fileshare.client.net — REQUEST SET_PASSWORD: sent, waiting for response
+2026-09-15 12:05:30,957  INFO      fileshare.client.net — REQUEST SET_PASSWORD: response={'type': 'OK', 'message': 'Password set'}
+2026-09-15 12:05:30,967  INFO      fileshare.client.gui — ✓ Password set
+2026-09-15 12:05:30,990  INFO      fileshare.client.gui — Loading…
+2026-09-15 12:05:31,016  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-15 12:05:31,017  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-15 12:05:31,032  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-15 12:05:31,034  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 1, 'items': [{'id': 3, 'parent_id': 1, 'owner': 'alex', 'node_type': 'folder', 'name': 'data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:41:42.918821', 'is_protected': True}, {'id': 4, 'parent_id': 1, 'owner': 'jack', 'node_type': 'folder', 'name': 'my data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:54:25.625729', 'is_protected': True}, {'id': 5, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'Nike Dataset.csv', 'file_size': 821590, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T14:00:13.201169', 'is_protected': True}, {'id': 2, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'data.csv', 'file_size': 870, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T13:39:49.621529', 'is_protected': False}]}
+2026-09-15 12:05:31,039  INFO      fileshare.client.gui — 4 items in this folder
+2026-09-15 12:09:02,280  INFO      fileshare.client.net — REQUEST: DELETE_ITEM
+2026-09-15 12:09:02,281  INFO      fileshare.client.net — REQUEST DELETE_ITEM: lock acquired
+2026-09-15 12:09:02,288  INFO      fileshare.client.net — REQUEST DELETE_ITEM: sent, waiting for response
+2026-09-15 12:09:02,295  INFO      fileshare.client.net — REQUEST DELETE_ITEM: response={'type': 'OK', 'message': 'Deleted successfully'}
+2026-09-15 12:09:02,296  INFO      fileshare.client.gui — ✓ Deleted data.csv
+2026-09-15 12:09:02,299  INFO      fileshare.client.gui — Loading…
+2026-09-15 12:09:02,301  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-15 12:09:02,302  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-15 12:09:02,304  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-15 12:09:02,309  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 1, 'items': [{'id': 3, 'parent_id': 1, 'owner': 'alex', 'node_type': 'folder', 'name': 'data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:41:42.918821', 'is_protected': True}, {'id': 4, 'parent_id': 1, 'owner': 'jack', 'node_type': 'folder', 'name': 'my data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:54:25.625729', 'is_protected': True}, {'id': 5, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'Nike Dataset.csv', 'file_size': 821590, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T14:00:13.201169', 'is_protected': True}]}
+2026-09-15 12:09:02,313  INFO      fileshare.client.gui — 3 items in this folder
+2026-09-15 12:10:15,549  INFO      fileshare.client.gui — Loading…
+2026-09-15 12:10:15,550  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-15 12:10:15,550  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-15 12:10:15,550  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-15 12:10:15,551  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'ERROR', 'message': 'PASSWORD_REQUIRED'}
+2026-09-15 12:12:53,647  INFO      fileshare.client.net — REQUEST: CREATE_FOLDER
+2026-09-15 12:12:53,661  INFO      fileshare.client.net — REQUEST CREATE_FOLDER: lock acquired
+2026-09-15 12:12:53,661  INFO      fileshare.client.net — REQUEST CREATE_FOLDER: sent, waiting for response
+2026-09-15 12:12:53,668  INFO      fileshare.client.net — REQUEST CREATE_FOLDER: response={'type': 'OK', 'message': "Folder 'app' created", 'id': 8}
+2026-09-15 12:12:53,669  INFO      fileshare.client.gui — ✓ Folder 'app' created
+2026-09-15 12:12:53,669  INFO      fileshare.client.gui — Loading…
+2026-09-15 12:12:53,670  INFO      fileshare.client.net — REQUEST: LIST_DIR
+2026-09-15 12:12:53,671  INFO      fileshare.client.net — REQUEST LIST_DIR: lock acquired
+2026-09-15 12:12:53,671  INFO      fileshare.client.net — REQUEST LIST_DIR: sent, waiting for response
+2026-09-15 12:12:53,671  INFO      fileshare.client.net — REQUEST LIST_DIR: response={'type': 'DIR_LISTING', 'parent_id': 1, 'items': [{'id': 8, 'parent_id': 1, 'owner': 'jack', 'node_type': 'folder', 'name': 'app', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-15T06:42:53.662544', 'is_protected': True}, {'id': 3, 'parent_id': 1, 'owner': 'alex', 'node_type': 'folder', 'name': 'data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:41:42.918821', 'is_protected': True}, {'id': 4, 'parent_id': 1, 'owner': 'jack', 'node_type': 'folder', 'name': 'my data', 'file_size': None, 'mime_type': None, 'created_at': '2026-09-14T13:54:25.625729', 'is_protected': True}, {'id': 5, 'parent_id': 1, 'owner': 'jack', 'node_type': 'file', 'name': 'Nike Dataset.csv', 'file_size': 821590, 'mime_type': 'application/vnd.ms-excel', 'created_at': '2026-09-14T14:00:13.201169', 'is_protected': True}]}
+2026-09-15 12:12:53,675  INFO      fileshare.client.gui — 4 items in this folder
+2026-09-15 12:14:37,467  INFO      fileshare.client.net — REQUEST: LOGOUT
+2026-09-15 12:14:37,468  INFO      fileshare.client.net — REQUEST LOGOUT: lock acquired
+2026-09-15 12:14:37,468  INFO      fileshare.client.net — REQUEST LOGOUT: sent, waiting for response
+2026-09-15 12:14:37,469  INFO      fileshare.client.net — REQUEST LOGOUT: response={'type': 'OK', 'message': 'Logged out'}
+2026-09-15 12:14:37,469  INFO      fileshare.client.net — Disconnected from server
